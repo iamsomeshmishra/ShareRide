@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "ShareRide",
+    "slug": "shareride",
+    "scheme": "shareride",
+    "plugins": [],
+    "android": {
+      "package": "com.beatloom.shareride",
+      "config": {
+        "googleMaps": {
+          "apiKey": "${EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.beatloom.shareride",
+      "config": {
+        "googleMapsApiKey": "${EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}"
+      }
+    }
+  }
+}
